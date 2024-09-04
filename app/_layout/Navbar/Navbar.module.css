@@ -1,0 +1,117 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 200px;
+    padding-block: 20px;
+}
+
+.Navbar .Logo {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    box-shadow: var(--boxShadow);
+    border-radius: 50%;
+}
+
+.Navbar .NavLinks {
+    display: flex;
+    gap: 8px;
+}
+
+.NavLinks a {
+    color: #000;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 999px;
+}
+
+.NavLinks a:hover {
+    background: var(--main);
+    color: #fff;
+}
+
+/* For MenuIcon */
+.MenuIcon {
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* For Slider */
+.Slider {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /* right: 0; */
+    height: 100%;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.8);
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10000;
+    box-shadow: var(--boxShadow);
+}
+
+.Slider.Open {
+    right: 0;
+}
+
+.Slider .SliderContent {
+    position: relative;
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.CloseIcon {
+    cursor: pointer;
+    font-size: 2rem;
+    align-self: flex-end;
+    margin-bottom: 2rem;
+}
+
+.SliderContent a {
+    padding: 8px 22px;
+    color: #333;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.NormalLinkText {
+    margin-bottom: 20px;
+}
+
+@media(max-width:1600px) {
+    .Navbar {
+        padding-inline: 100px;
+        padding-block: 10px;
+    }
+
+    .Navbar .Logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    .Navbar .NavLinks {
+        display: none;
+    }
+
+    .MenuIcon {
+        display: block;
+    }
+}
+
+@media(max-width:1000px) {
+    .Navbar {
+        padding-inline: 20px;
+        padding-block: 10px;
+    }
+}

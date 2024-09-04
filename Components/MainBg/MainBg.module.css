@@ -1,0 +1,112 @@
+.MainBg {
+    position: relative;
+}
+
+.MainBg img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #253345;
+    opacity: 0.4;
+}
+
+.Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.Content h6 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.Content h5 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+@media(max-width:1200px) {
+
+    .MainBg img {
+        height: 70vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .Content h6 {
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .Content h5 {
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:900px) {
+
+    .MainBg img {
+        height: 60vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .Content h6 {
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    .Content h5 {
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .MainBg img {
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .Content h6 {
+        font-weight: 800;
+        font-size: 13px;
+    }
+
+    .Content h5 {
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width:468px) {
+    .Content h6 {
+        font-weight: 800;
+        font-size: 12px;
+    }
+
+    .Content h5 {
+        font-weight: 900;
+        font-size: 18px;
+    }
+
+}

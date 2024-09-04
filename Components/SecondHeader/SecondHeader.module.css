@@ -1,0 +1,10 @@
+.SecondHeader {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.SecondHeader video {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}

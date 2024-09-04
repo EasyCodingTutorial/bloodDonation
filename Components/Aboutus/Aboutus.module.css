@@ -1,0 +1,130 @@
+.AboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-block: 20px;
+}
+
+.AboutUs img {
+    height: 600px;
+    width: 800px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: var(--boxShadow);
+}
+
+.AboutUs h6 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.AboutUs h5 {
+    font-weight: 800;
+    font-size: 35px;
+    margin-block: 20px;
+}
+
+.AboutUs p {
+    font-size: 14px;
+    color: #222121;
+}
+
+@media(max-width:1600px) {
+    .AboutUs img {
+        height: 600px;
+        width: 600px;
+        object-fit: contain;
+        box-shadow: none !important;
+    }
+
+    .AboutUs h6 {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .AboutUs h5 {
+        font-weight: 800;
+        font-size: 30px;
+        margin-block: 20px;
+    }
+
+}
+
+@media(max-width:1350px) {
+    .AboutUs {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .AboutUs img {
+        height: 500px;
+        width: 100% !important;
+        object-fit: cover !important;
+        box-shadow: none !important;
+    }
+
+    .AboutUs h6 {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .AboutUs h5 {
+        font-weight: 800;
+        font-size: 26px;
+        margin-block: 20px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .AboutUs img {
+        height: 300px;
+        width: 100% !important;
+        object-fit: cover !important;
+        box-shadow: none !important;
+    }
+
+    .AboutUs h6 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .AboutUs h5 {
+        font-weight: 800;
+        font-size: 23px;
+        margin-block: 20px;
+    }
+
+    .AboutUs p {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .AboutUs img {
+        height: 300px;
+        width: 100% !important;
+        object-fit: cover !important;
+        box-shadow: none !important;
+    }
+
+    .AboutUs h6 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .AboutUs h5 {
+        font-weight: 800;
+        font-size: 23px;
+        margin-block: 20px;
+    }
+
+    .AboutUs p {
+        font-size: 12px;
+    }
+
+}

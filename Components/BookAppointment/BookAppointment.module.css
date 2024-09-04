@@ -1,0 +1,73 @@
+.BookAppointment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-block: 20px;
+}
+
+.BookAppointment img {
+    height: 600px;
+    width: 800px;
+    object-fit: contain;
+}
+
+.BookAppointment form {
+    box-shadow: var(--boxShadow);
+    padding: 20px;
+}
+
+.BookAppointment form h6 {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+.BookAppointment form button {
+    width: 100%;
+    background: var(--main);
+    color: #fff;
+    padding: 11px 22px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.SuccessMessage {
+    background: green;
+    color: #fff;
+    padding: 8px 22px;
+    width: max-content;
+    margin-block: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 999px;
+    margin-left: 10px;
+}
+
+@media(max-width:1600px) {
+
+
+    .BookAppointment img {
+        height: 600px;
+        width: 600px;
+        object-fit: contain;
+    }
+}
+
+@media(max-width:1350px) {
+    .BookAppointment {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:900px) {
+
+    .BookAppointment img {
+        height: 400px;
+
+        object-fit: contain;
+    }
+}
