@@ -44,7 +44,8 @@ Before running the application, ensure you have the following installed:
 ### Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
+ 
 
-## Learn By Watching Video  ▶️
+## Learn By Watching Video ▶️
+[![Watch Demo Video](https://img.youtube.com/vi/v9hUH5oKcyI/maxresdefault.jpg)](https://www.youtube.com/watch?v=v9hUH5oKcyI)
 
-[![Watch Demo Video](Comming Soon)
